@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    border: 0px;
+    padding: 0px;
+}
+
+.content {
+    background-color: #FFAF3F;
+    color:white;
+    background-size: 200px;
+    height: 60%;
+    
+    width: 80%;
+ }
+
+
+.header_left {
+    font-family: sans-serif;
+    color: white;
+    font-size: 65px;
+    background-color: #FE4A49;
+    width: 11%;
+    border: 15px;
+    padding: 10px;
+    margin: 0px;
+    float: left;
+    
+}   
+
+.header_left a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    
+}
+
+.header_left a:hover {
+    background-color: orangered;
+    color: black;
+    
+    
+}
+
+
+.contact {
+    color: white;
+    font-family: sans-serif;
+    background-color: #FE4A49;
+    font-size: 65px;
+    border: 15px;
+    padding: 10px;
+    margin: 0px;
+    float: right;
+       
+    
+}
+
+.image_left {
+    font-size: 35px;
+}
+
+.image_right {
+    font-size: 35px;
+}
+
+.navigation {
+    float: right;
+    font-family: sans-serif;
+    font-size: 20px;
+    background color: #FED766;
+    font-family; align-content: center;
+    height; 5px;
+}
+
+.topnav {
+    font-family: cursive;
+    overflow: hidden;
+    background-color: #FFAF3F;
+    opacity: 0.9;
+    font-size: 35px;
+}
+
+.topnav a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #FED766;
+    color: black;
+
+}
+
+.coloum 1 {
+    float: right;
+    
+}
