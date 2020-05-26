@@ -6,13 +6,22 @@ body {
 
 .content {
     background-color: #FFAF3F;
-    color:white;
+    color: white;
     background-size: 200px;
-    height: 60%;
-    
-    width: 80%;
+    height: 500px;
+    width: 800px;
+    padding: 20x;
+    margin: 20px;
+    text-align: center;
  }
 
+.image { 
+  height: 100px;
+  width: 200px;
+  float: inherit;
+ background-image: image("c02.jpg")
+     
+}
 
 .header_left {
     font-family: sans-serif;
@@ -79,8 +88,11 @@ body {
     font-family: cursive;
     overflow: hidden;
     background-color: #FFAF3F;
+    float: left;
     opacity: 0.9;
     font-size: 35px;
+    margin: auto;
+    text-align: center;
 }
 
 .topnav a {
