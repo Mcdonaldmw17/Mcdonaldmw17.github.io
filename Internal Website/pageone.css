@@ -2,6 +2,7 @@ body {
     background-color: black;
     border: 0px;
     padding: 0px;
+    background-size: cover;
 }
 
 .content {
@@ -9,17 +10,19 @@ body {
     color: white;
     background-size: 200px;
     height: 500px;
-    width: 800px;
+    width: 880px;
     padding: 20x;
-    margin: 20px;
+    margin-left: 16.5%;
     text-align: center;
+    margin-top: 5%;
  }
 
 .image { 
-  height: 100px;
-  width: 200px;
-  float: inherit;
- background-image: image("c02.jpg")
+  height: 700px;
+  width: 900px;
+  margin-top: 50px;
+  margin-left: 30%;
+  
      
 }
 
@@ -46,10 +49,26 @@ body {
     
 }
 
+
+.donate {
+    color: white;
+    font-family: sans-serif;
+    font-size: 65px;
+     background-color: #FE4A49;
+    float: right;
+    width: 96%;
+    margin-top: 5%;
+    margin-right: 25%;
+
+}
+
+.donate a:visited {
+    color: white;
+}
+
 .header_left a:hover {
     background-color: orangered;
     color: black;
-    
     
 }
 
@@ -88,11 +107,13 @@ body {
     font-family: cursive;
     overflow: hidden;
     background-color: #FFAF3F;
-    float: left;
+    width: 63%;
     opacity: 0.9;
     font-size: 35px;
     margin: auto;
     text-align: center;
+    box-sizing:border-box;
+    
 }
 
 .topnav a {
