@@ -8,6 +8,7 @@ body {
 .content {
     background-color: #FFAF3F;
     color: white;
+    font-size: 34px;
     background-size: 200px;
     height: 500px;
     width: 880px;
@@ -39,13 +40,8 @@ body {
     
 }   
 
-.header_left a {
-    float: left;
-    display: block;
+.header_left a:visited {
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
     
 }
 
@@ -66,12 +62,6 @@ body {
     color: white;
 }
 
-.header_left a:hover {
-    background-color: orangered;
-    color: black;
-    
-}
-
 
 .contact {
     color: white;
@@ -82,16 +72,11 @@ body {
     padding: 10px;
     margin: 0px;
     float: right;
-       
     
 }
 
-.image_left {
-    font-size: 35px;
-}
-
-.image_right {
-    font-size: 35px;
+    .contact a:visited {
+    color: white;
 }
 
 .navigation {
