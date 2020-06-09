@@ -8,10 +8,11 @@ body {
 .content {
     background-color: #FFAF3F;
     color: white;
+    font-size: 34px;
     background-size: 200px;
-    height: 500px;
+    height: 400px;
     width: 880px;
-    padding: 20x;
+    padding: 20x;   
     margin-left: 16.5%;
     text-align: center;
     margin-top: 5%;
@@ -21,7 +22,7 @@ body {
   height: 700px;
   width: 900px;
   margin-top: 50px;
-  margin-left: 30%;
+  margin-left: 15%;
   
      
 }
@@ -53,7 +54,7 @@ body {
     float: right;
     width: 96%;
     margin-top: 5%;
-    margin-right: 25%;
+    margin-right: 2%;
 
 }
 
